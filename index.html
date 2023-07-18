@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent Website | Html, Css & Js</title>
+    <!-- Css file link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Script file link -->
+    <script src="main.js" defer></script>
+    <!-- Boxicons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <!-- Header Start -->
+
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__wrapper">
+                    <div class="logo">
+                        <h1>Pizza<span class="highlight">Day</span></h1>
+                    </div>
+                    <div class="navigation">
+                        <ul class="nav__menu">
+                            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                            <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                            <li class="nav__item"><a href="#about" class="nav__link">About Us</a></li>
+                            <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
+                        </ul>
+                    </div>
+                    <span class="mobile__menu"><i class='bx bx-menu'></i></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Header Ends -->
+
+
+
+    <!-- Main Start -->
+
+    <!-- Hero Section Start -->
+
+    <section id="home">
+        <div class="container">
+            <div class="hero__wrapper">
+                <div class="hero__content">
+                    <h2 class="hero__title">Today's Special</h2>
+                    <h2 class="highlight">Italian Pizza</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi impedit, voluptatibus minima laborum dignissimos repellat quasi nostrum ullam illo. Omnis.</p>
+                    <div class="hero__btns">
+                        <button class="view__more-btn">View menu</button>
+                        <span class="play__btn"><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+                <div class="hero__img">
+                    <img src="./images/hero-img.png" alt="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section Ends -->
+
+
+    <!-- Popular Dishes Section Start -->
+
+    <section class="section">
+        <div class="container">
+            <div class="dishes__section-top">
+                <h2>Popular Dishes</h2>
+            </div>
+            <div class="dishes__wrapper">
+                <div class="dish__item">
+                    <div class="dish__img">
+                        <img src="./images/dishes-01.png" alt="dish">
+                    </div>
+                    <div class="dish__content">
+                        <h3>Papporoni Pizza</h3>
+                        <div class="ratings">
+                            <span><i class='bx bxs-star' ></i></span>
+                            <span><i class='bx bxs-star' ></i></span>
+                            <span><i class='bx bxs-star' ></i></span>
+                            <span><i class='bx bxs-star' ></i></span>
+                            <span><i class='bx bx-star' ></i> </span>
+                        </div>
+                        <div class="dish__content-bottom">
+                            <span class="dish__price">$23.99</span>
+                            <span class="add__to-cart"><i class='bx bx-cart-alt' ></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dish__item">
+                    <div class="dish__img">
+                        <img src="./images/dishes-02.png" alt="dish">
+                    </div>
+                    <div class="dish__content">
+                        <h3>Pasta</h3>
+                        <div class="ratings">
+                            <span><i class='bx bxs-star' ></i></span>
+                            <span><i class='bx bxs-star' ></i></span>
+                            <span><i class='bx bxs-star' ></i></span>
+                            <span><i class='bx bxs-star' ></i></span>
+                            <span><i class='bx bx-star' ></i> </span>
+                        </div>
+                        <div class="dish__content-bottom">
+                            <span class="dish__price">$29.99</span>
+                            <span class="add__to-cart"><i class='bx bx-cart-alt' ></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dish__item">
+                    <div class="dish__img">
+                        <img src="./images/dishes-03.png" alt="dish">
+                    </div>
+                    <div class="dish__content">
+                        <h3>Vegetables</h3>
+                        <div class="ratings">
+                            <span><i class='bx bxs-star' ></i></span>
+                            <span><i class='bx bxs-star' ></i></span>
+                            <span><i class='bx bxs-star' ></i></span>
+                            <span><i class='bx bxs-star' ></i></span>
+                            <span><i class='bx bx-star' ></i> </span>
+                        </div>
+                        <div class="dish__content-bottom">
+                            <span class="dish__price">$27.99</span>
+                            <span class="add__to-cart"><i class='bx bx-cart-alt' ></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Dishes Section Ends -->
+
+
+    <!-- About us Section Starts -->
+
+    <section class="section" id="about">
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="about__img">
+                    <img src="./images/burger.png" alt="aboutPic">
+                </div>
+                <div class="about__content">
+                    <h3>We pride ourselves on making real food from the best ingredients</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, nostrum quia tempore ad consequatur facilis.</p>
+                    <button class="learn__more"><a href="#">Learn More</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About us Section Ends -->
+
+
+    <!-- Menu Section Starts -->
+
+    <section class="section" id="menu">
+        <div class="container">
+            <div class="menu__section-top">
+                <h2>Special Menu For You</h2>
+            </div>
+            <div class="menu__wrapper">
+                <div class="menu__item">
+                    <div class="menu__img">
+                        <img src="./images/product-01.png" alt="menu">
+                    </div>
+                    <h3>American Pasta</h3>
+                    <div class="menu__card-bottom">
+                        <div>
+                            <div class="ratings">
+                                <span><i class='bx bxs-star' ></i></span>
+                                <span><i class='bx bxs-star' ></i></span>
+                                <span><i class='bx bxs-star' ></i></span>
+                                <span><i class='bx bxs-star' ></i></span>
+                                <span><i class='bx bx-star' ></i> </span>
+                            </div>
+                            <span class="dish__price">$17.99</span>
+                        </div>
+                        <span class="add__to-cart"><i class='bx bx-cart-alt' ></i></span>
+                    </div>
+                </div>
+
+                <div class="menu__item">
+                    <div class="menu__img">
+                        <img src="./images/product-02.png" alt="menu">
+                    </div>
+                    <h3>Quintao Nuts</h3>
+                    <div class="menu__card-bottom">
+                        <div>
+                            <div class="ratings">
+                                <span><i class='bx bxs-star' ></i></span>
+                                <span><i class='bx bxs-star' ></i></span>
+                                <span><i class='bx bxs-star' ></i></span>
+                                <span><i class='bx bxs-star' ></i></span>
+                                <span><i class='bx bx-star' ></i> </span>
+                            </div>
+                            <span class="dish__price">$13.99</span>
+                        </div>
+                        <span class="add__to-cart"><i class='bx bx-cart-alt' ></i></span>
+                    </div>
+                </div>
+
+                <div class="menu__item">
+                    <div class="menu__img">
+                        <img src="./images/product-03.png" alt="menu">
+                    </div>
+                    <h3>Buzz Noodles</h3>
+                    <div class="menu__card-bottom">
+                        <div>
+                            <div class="ratings">
+                                <span><i class='bx bxs-star' ></i></span>
+                                <span><i class='bx bxs-star' ></i></span>
+                                <span><i class='bx bxs-star' ></i></span>
+                                <span><i class='bx bxs-star' ></i></span>
+                                <span><i class='bx bx-star' ></i> </span>
+                            </div>
+                            <span class="dish__price">$9.99</span>
+                        </div>
+                        <span class="add__to-cart"><i class='bx bx-cart-alt' ></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section Ends -->
+
+
+    <!-- Offer Section Starts -->
+
+    <section class="section">
+        <div class="container">
+            <div class="offer__wrapper">
+                <div class="offer__content">
+                    <h2>Get upto <span class="highlight">50%</span> off on festivals !</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ex dolorem hic eveniet molestiae quos commodi, sunt perspiciatis saepe officia eum. Veniam quia magni iure facilis eligendi architecto quibusdam dicta.</p>
+                    <button class="view__more-btn">Order Now</button>
+                </div>
+                <div class="offer__img">
+                    <img src="./images/offer.png" alt="offer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offer Section Ends -->
+
+
+    <!-- Blog Section Starts -->
+
+    <section class="section" id="blog">
+        <div class="container">
+            <div class="blog__top">
+                <h2>Our Top Recipes</h2>
+            </div>
+            <div class="blog__wrapper">
+                <div class="blog__item">
+                    <div class="blog__img">
+                        <img src="./images/recipe-01.jpg" alt="recipe">
+                    </div>
+                    <div class="blog__content">
+                        <h3>Better than takeout sesame chicken</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, magni.</p>
+                        <a href="#" class="read__more">Read more</a>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <div class="blog__img">
+                        <img src="./images/recipe-02.jpg" alt="recipe">
+                    </div>
+                    <div class="blog__content">
+                        <h3>Better than takeout sesame chicken</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, magni.</p>
+                        <a href="#" class="read__more">Read more</a>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <div class="blog__img">
+                        <img src="./images/recipe-03.jpg" alt="recipe">
+                    </div>
+                    <div class="blog__content">
+                        <h3>Better than takeout sesame biriyani</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, magni.</p>
+                        <a href="#" class="read__more">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section Ends -->
+
+    <!-- Main Ends -->
+
+
+
+    <!-- Footer Starts -->
+
+    <footer class="section footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__logo">
+                    <div class="logo">
+                        <h1>Pizza<span class="highlight">Day</span></h1>
+                    </div>
+                    <p>Subscribe to our newsletter</p>
+                    <div class="subscribe__box">
+                        <input type="email" placeholder="Your Email">
+                        <button class="subscribe__btn">Subscribe</button>
+                    </div>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__link-title">Information</h3>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#about" class="footer__link">About Us</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__link">Events</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__link">Career</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__link">Our Chefs</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__link-title">Services</h3>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#about" class="footer__link">Online Order</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__link">24/7 Support</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__link">Pre-Reservation</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__link">Foodie Place</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__link-title">Quick Links</h3>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#menu" class="footer__link">Menu</a></li>
+                        <li class="footer__menu-item"><a href="#blog" class="footer__link">Blog</a></li>
+                        <li class="footer__menu-item"><a href="#about" class="footer__link">About us</a></li>
+                        <li class="footer__menu-item"><a href="#offer" class="footer__link">Offer</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__link-title">Social</h3>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#" class="footer__link">Facebook</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__link">instagram</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__link">Linkedin</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__link">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer__copyright">
+                Developed by Ditin Agrawal with ❤️ | All rights Reserved
+            </p>
+        </div>
+    </footer>
+
+    <!-- Footer Ends -->
+
+</body>
+</html>
